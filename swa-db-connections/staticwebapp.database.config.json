@@ -30,16 +30,16 @@
     }
   },
   "entities": {
-    "Author": {
+    "Product": {
       "source": {
-        "object": "dbo.authors",
+        "object": "SalesLT.Product",
         "type": "table"
       },
       "graphql": {
         "enabled": true,
         "type": {
-          "singular": "Author",
-          "plural": "Authors"
+          "singular": "Product",
+          "plural": "Products"
         }
       },
       "rest": {
